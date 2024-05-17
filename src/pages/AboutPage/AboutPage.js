@@ -1,13 +1,12 @@
 import React from 'react';
 import Description from "../../components/Description/Description";
 
-
-const MainPage = () => {
+const AboutPage = () => {
     return (
         <div>
-            <Description info={{title: "Title", description: "description"}} />
+            <Description info={{title: "Title 2", description: "description 2"}}/>
         </div>
     );
 };
 
-export default MainPage;
+export default AboutPage;

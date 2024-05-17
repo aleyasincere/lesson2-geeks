@@ -1,10 +1,14 @@
 import React from 'react';
 import MainPage from "./pages/MainPage/MainPage";
+import AboutPage from "./pages/AboutPage/AboutPage";
+import TodosPage from "./pages/TodosPage/TodosPage";
 
 const App = () => {
     return (
         <div>
             <MainPage/>
+            <AboutPage/>
+            <TodosPage/>
         </div>
     );
 };
